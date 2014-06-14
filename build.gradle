@@ -33,3 +33,8 @@ android {
         instrumentTest.java.srcDirs = ['tests/src']
     }
 }
+
+group 'com.android.volley'
+version '1.0-SNAPSHOT'
+
+apply from: '../../maven_local.gradle'
