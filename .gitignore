@@ -3,4 +3,7 @@ gen
 .gradle
 build
 .settings
-*iml
+target
+*.iml
+.idea
+local.properties
