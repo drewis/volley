@@ -165,4 +165,12 @@
       </build>
     </profile>
   </profiles>
+
+  <distributionManagement>
+	  <snapshotRepository>
+		  <id>deployment</id>
+		  <name>Internal Releases</name>
+		  <url>file:///opt/android/OpenSilk/m2/repository</url>
+	  </snapshotRepository>
+  </distributionManagement>
 </project>
